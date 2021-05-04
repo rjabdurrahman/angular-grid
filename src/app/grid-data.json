@@ -1,0 +1,18 @@
+{
+    "item1": {
+        "id": "A",
+        "area": "auto/1/auto/4"
+    },
+    "item2": {
+        "id": "B",
+        "area": "auto/auto/span 4/auto"
+    },
+    "item3": {
+        "id": "C",
+        "area": "auto/auto/span 2/span 1"
+    },
+    "item4": {
+        "id": "C",
+        "area": "auto/auto/span 2/span 2"
+    }
+}

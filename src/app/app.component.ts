@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import colorsData from './colors-data.json';
+import gridItems from './grid-data.json';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'grid-project';
-  colors = colorsData;
+  public gridItems = gridItems;
 
   areaUpdater(val) {
     return val;

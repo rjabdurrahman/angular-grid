@@ -1,3 +1,50 @@
-<div class="container">
-  <div *ngFor="let color of colors" class="box" [ngStyle]="{'grid-area': color.area, 'width': color.width, 'height': color.height}">{{color.id}}</div>
+<div class="grid-container">
+  <!-- <div *ngFor="let color of colors" class="box" [ngStyle]="{'grid-area': color.area, 'width': color.width, 'height': color.height}">{{color.id}}</div> -->
+  <table [ngStyle]="{'grid-area': gridItems.item1.area}">
+    <tr>
+      <th>Product Name</th>
+      <th>Unit Price</th>
+      <th>Quanity</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+  </table>
+  <div class="card" [ngStyle]="{'grid-area': gridItems.item2.area}">
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>John Doe</b></h4>
+    </div>
+  </div>
+  <img src="https://picsum.photos/id/1060/536/354?blur=2" [ngStyle]="{'grid-area': gridItems.item3.area}">
+  <img src="https://picsum.photos/id/1060/536/354?blur=2" [ngStyle]="{'grid-area': gridItems.item3.area}">
+  <div style="background-color: aqua;" [ngStyle]="{'grid-area': gridItems.item4.area}"></div>
 </div>
