@@ -12,12 +12,12 @@
     {
         "id": 3,
         "name": "yellow",
-        "area": "auto/auto/auto/auto"
+        "area": "auto"
     },
     {
         "id": 4,
         "name": "blue",
-        "area": "auto/auto/auto/auto"
+        "area": "auto"
     },
     {
         "id": 5,
