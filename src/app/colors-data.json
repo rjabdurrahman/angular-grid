@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "red",
+        "area": "auto/1/auto/4"
+    },
+    {
+        "id": 2,
+        "name": "green",
+        "area": "2/auto/4/auto"
+    },
+    {
+        "id": 3,
+        "name": "yellow",
+        "area": "auto/auto/auto/auto"
+    },
+    {
+        "id": 4,
+        "name": "blue",
+        "area": "auto/auto/auto/auto"
+    },
+    {
+        "id": 5,
+        "name": "indigo",
+        "area": "auto"
+    },
+    {
+        "id": 6,
+        "name": "silver",
+        "area": "auto"
+    }
+]
