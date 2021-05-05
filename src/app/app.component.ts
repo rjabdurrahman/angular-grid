@@ -1,7 +1,7 @@
 
 import { Component, ViewEncapsulation } from '@angular/core';
 
-import { CompactType, DisplayGrid, Draggable, GridsterConfig, GridsterItem, GridType, PushDirections, Resizable } from 'angular-gridster2';
+import { CompactType, Draggable, GridsterConfig, GridsterItem, GridType, PushDirections, Resizable } from 'angular-gridster2';
 
 interface Safe extends GridsterConfig {
   draggable: Draggable;
