@@ -73,7 +73,8 @@ export class AppComponent {
     this.options = {
       gridType: GridType.Fit,
       compactType: CompactType.None,
-      margin: 10,
+      // This is the gap between grid items
+      margin: 2,
       outerMargin: true,
       outerMarginTop: null,
       outerMarginRight: null,
@@ -119,7 +120,7 @@ export class AppComponent {
       disablePushOnResize: false,
       pushDirections: { north: true, east: true, south: true, west: true },
       pushResizeItems: false,
-      displayGrid: DisplayGrid.Always,
+      // displayGrid: DisplayGrid.Always,
       disableWindowResize: false,
       disableWarnings: false,
       scrollToNewItems: false
