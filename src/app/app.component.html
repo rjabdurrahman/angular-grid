@@ -1,4 +1,5 @@
 <gridster [options]="options">
-  <gridster-item [item]="item" [innerHTML]="item.innerContent" *ngFor="let item of dashboard">
+  <gridster-item [item]="item" *ngFor="let item of dashboard">
+    <div class="gridster-item-content" *ngIf="item.innerContent"  [innerHTML]="item.innerContent"></div>
   </gridster-item>
 </gridster>
