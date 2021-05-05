@@ -127,13 +127,13 @@ export class AppComponent {
     };
     // Grid items definations
     this.dashboard = [
-      { cols: 2, rows: 1, y: 0, x: 0 },
+      { cols: 2, rows: 2, y: 0, x: 0, minItemRows: 2, minItemCols: 2, innerContent: `<img src="https://picsum.photos/seed/picsum/536/354" />` },
+      { cols: 2, rows: 1, y: 5, x: 5 },
       { cols: 1, rows: 2, y: 0, x: 2, innerContent: this.card },
       { cols: 1, rows: 1, y: 0, x: 4 },
       { cols: 1, rows: 1, y: 2, x: 5 },
       { cols: 1, rows: 1, y: 1, x: 0 },
       { cols: 1, rows: 1, y: 1, x: 0 },
-      { cols: 2, rows: 2, y: 3, x: 5, minItemRows: 2, minItemCols: 2, innerContent: `<img src="https://picsum.photos/seed/picsum/536/354" />` },
       { cols: 2, rows: 2, y: 2, x: 0, maxItemRows: 2, maxItemCols: 2, innerContent: this.table },
       { cols: 2, rows: 1, y: 2, x: 2, dragEnabled: true, resizeEnabled: true, innerContent: 'I am a text' },
       { cols: 1, rows: 1, y: 2, x: 4, dragEnabled: false, resizeEnabled: false, innerContent: '<h1>Grid is Awsome</h1>' },
