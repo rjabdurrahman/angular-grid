@@ -1,31 +1,28 @@
-.grid-container {
-    display: grid;
-    gap: 6px;
-    width: max-content;
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(100px, auto);
-}
-
-table {
-    border-collapse: collapse;
-    th,
-    td {
-        border: 1px solid black;
-        padding: 4px 8px;
+gridster-item {
+    img {
+        height: 100%;
+        width: 100%;
     }
-}
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 250px;
-    background-color: lightblue;
-}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        th, td {
+            border: 1px solid black;
+        }
+    }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-    padding: 2px 16px;
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 250px;
+        background-color: lightblue;
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+    
+    .container {
+        padding: 2px 16px;
+    }
 }
