@@ -1,4 +1,16 @@
 gridster-item {
+    .drag-handler {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        height: 100%;
+        width: 100%;
+    }
+    .button-holder:hover {
+        .drag-handler {
+            display: block;
+        }
+    }
     img {
         height: 100%;
         width: 100%;
@@ -7,7 +19,8 @@ gridster-item {
     table {
         border-collapse: collapse;
         width: 100%;
-        th, td {
+        th,
+        td {
             border: 1px solid black;
         }
     }
@@ -21,7 +34,7 @@ gridster-item {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
     }
-    
+
     .container {
         padding: 2px 16px;
     }

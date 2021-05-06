@@ -1,4 +1,8 @@
 <gridster [options]="options">
-  <gridster-item [item]="item" [innerHTML]="item.innerContent" *ngFor="let item of dashboard">
+  <gridster-item [item]="item" *ngFor="let item of dashboard">
+    <div class="button-holder" style="position: relative;">
+      <div mat-icon-button mat-raised-button class="drag-handler"></div>
+      <div style="display: inline-block;" class="gridster-item-content" *ngIf="item.innerContent" [innerHTML]="item.innerContent"></div>
+    </div>
   </gridster-item>
 </gridster>
