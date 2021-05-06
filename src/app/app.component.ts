@@ -108,9 +108,11 @@ export class AppComponent {
       emptyCellDragMaxCols: 50,
       emptyCellDragMaxRows: 50,
       ignoreMarginInRow: false,
+      // To Enable Dragging
       draggable: {
-        enabled: true,
+        enabled: false,
       },
+      // To Enable Resizing
       resizable: {
         enabled: true,
       },
