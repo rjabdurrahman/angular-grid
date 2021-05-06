@@ -73,14 +73,14 @@ export class AppComponent {
     this.options = {
       gridType: GridType.Fit,
       compactType: CompactType.None,
-      // This is the gap between grid items
-      margin: 2,
-      outerMargin: true,
+      /* Show Grid using gap between items */
+      margin: 0,
+      outerMargin: false,
       outerMarginTop: null,
       outerMarginRight: null,
       outerMarginBottom: null,
       outerMarginLeft: null,
-      useTransformPositioning: true,
+      useTransformPositioning: false,
       mobileBreakpoint: 640,
       minCols: 1,
       maxCols: 100,
@@ -122,6 +122,7 @@ export class AppComponent {
       disablePushOnResize: false,
       pushDirections: { north: true, east: true, south: true, west: true },
       pushResizeItems: false,
+      /* Disable Main Grid View */
       // displayGrid: DisplayGrid.Always,
       disableWindowResize: false,
       disableWarnings: false,
