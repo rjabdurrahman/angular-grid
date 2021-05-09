@@ -117,7 +117,7 @@ class MyGrid {
         </div>
         </div>`
 
-    setGridItems() {
+    showGrid() {
         // Grid items definations
         this.dashboard = [
             { cols: 2, rows: 2, y: 0, x: 0, dragEnabled: true, resizeEnabled: true, innerContent: `<img src="https://picsum.photos/seed/picsum/536/354" />` },

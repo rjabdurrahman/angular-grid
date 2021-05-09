@@ -16,6 +16,6 @@ export class AppComponent extends MyGrid {
   }
 
   ngOnInit(): void {
-    this.setGridItems()
+    this.showGrid()
   }
 }
