@@ -75,51 +75,12 @@ class MyGrid {
     // This are some custom items html. You can directly write the items html inside the items array like the image HTML
     
     showGrid() {
-        // Grid items definations
-        data[3].innerContent = `<div class="card">
-            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
-            <div class="container">
-            <h4><b>John Doe</b></h4>
-            </div>
-            </div>`
-        data[8].innerContent = `<table>
-            <tr>
-                <th>Product Name</th>
-                <th>Unit Price</th>
-                <th>Quanity</th>
-                <th>Total</th>
-            </tr>
-            <tr>
-                <td>iPhone 11</td>
-                <td>$1200</td>
-                <td>2</td>
-                <td>$2400</td>
-            </tr>
-            <tr>
-                <td>iPhone 11</td>
-                <td>$1200</td>
-                <td>2</td>
-                <td>$2400</td>
-            </tr>
-            <tr>
-                <td>iPhone 11</td>
-                <td>$1200</td>
-                <td>2</td>
-                <td>$2400</td>
-            </tr>
-            <tr>
-                <td>iPhone 11</td>
-                <td>$1200</td>
-                <td>2</td>
-                <td>$2400</td>
-            </tr>
-            <tr>
-                <td>iPhone 11</td>
-                <td>$1200</td>
-                <td>2</td>
-                <td>$2400</td>
-            </tr>
-            </table>`
+        data.forEach(x => {
+            if(x.innerContent) {
+                x.innerContent = document.getElementById(x.innerContent).outerHTML;
+                console.log(x.innerContent)
+            }
+        });
         this.dashboard = data;
     }
 

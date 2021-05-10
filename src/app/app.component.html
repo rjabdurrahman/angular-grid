@@ -2,7 +2,59 @@
   <gridster-item [item]="item" *ngFor="let item of dashboard">
     <div class="button-holder" style="position: relative;">
       <div mat-icon-button mat-raised-button class="drag-handler"></div>
-      <div style="display: inline-block;" class="gridster-item-content" *ngIf="item.innerContent" [innerHTML]="item.innerContent"></div>
+      <div style="display: inline-block;" class="gridster-item-content" *ngIf="item.innerContent"
+        [innerHTML]="item.innerContent"></div>
     </div>
   </gridster-item>
 </gridster>
+<!-- Items declartions -->
+<div style="display: none;">
+  <img id="img1" src="https://picsum.photos/seed/picsum/536/354" />
+  <img id="img2" src="https://picsum.photos/seed/picsum/536/354" />
+  <div id="aaa">I am new</div>
+  <div id="card" class="card">
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>John Doe</b></h4>
+    </div>
+  </div>
+  <table id="table1">
+    <tr>
+      <th>Product Name</th>
+      <th>Unit Price</th>
+      <th>Quanity</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+    <tr>
+      <td>iPhone 11</td>
+      <td>$1200</td>
+      <td>2</td>
+      <td>$2400</td>
+    </tr>
+  </table>
+  <h1 id="heading">Grid is Awsome</h1>
+</div>
