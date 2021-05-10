@@ -1,5 +1,5 @@
 import { DisplayGrid, CompactType, Draggable, GridsterConfig, GridsterItem, GridType, PushDirections, Resizable } from 'angular-gridster2';
-import data from './grid-data.json';
+import data from './my-grid.json';
 interface Safe extends GridsterConfig {
     draggable: Draggable;
     resizable: Resizable;
